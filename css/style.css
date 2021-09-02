@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+/** header **/
+
+header{
+    margin: 15px;
+}
+#tittle-logo{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+.logo{
+    vertical-align: middle;
+}
+
+/** fine header **/
+
+main{
+    background-color: rgb(233, 231, 231);
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.card-contenuto{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.button{
+    border-radius: 5px;
+    padding: 2px 5px
+}
+
+.button-blue{
+    background-color: rgb(57, 191, 253);
+    color: white;
+    border: none;
+}
+
+.button-white{
+    background-color: white;
+    border: 1px solid lightgrey;
+    color: grey;
+
+}
+
+.blocco-header{
+    border-bottom: 1px solid lightgrey;
+    padding: 20px;
+    padding: 10px 50px;
+    margin-bottom:30px;
+
+}
+
+h1, h2{
+    display: inline-block;
+}
+.freccia{
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+li {list-style: none;
+    margin: 0 40px;
+    padding-bottom: 20px;
+}
+
+.titolo{
+   padding: 0;
+    }
+
+.circle{
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 50px; 
+}
+
+.fatto{
+  
+    border: 1px solid rgb(4, 192, 29);
+    color:rgb(4, 192, 29) ;
+}
+
+.non-fatto{
+  
+    border: 1px solid rgb(192, 42, 4);
+    color:rgb(192, 42, 4) ;
+}
+
+.etichetta{
+    padding: 3px 10px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+.rosa{
+    background-color: violet;
+}
+.lime{
+    background-color: lime;
+}
+.blu{
+    background-color: rgb(57, 191, 253);
+}
+.violet{
+    background-color: rgb(245, 9, 154);
+}
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}
